@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(180, 180, 200);
+    color: rgb(60, 60, 80);
+}
+
+.dark-mode {
+    background-color: rgb(60, 60, 80);
+    color: rgb(180, 180, 200);
+}
