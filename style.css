@@ -22,4 +22,4 @@ body.dark-mode a:hover { color: hotpink; }
 
 h1, h2, h3 { color: rgb(40, 80, 100); }
 
-body.dark-mode h1, h2, h3 { color: rgb(140, 180, 200); }
+h1.dark-mode, h2.dark-mode, h3.dark-mode { color: rgb(140, 180, 200); }
