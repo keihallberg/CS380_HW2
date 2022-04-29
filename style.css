@@ -8,26 +8,18 @@ body.dark-mode {
     color: rgb(180, 180, 200);
 }
 
-a:link {
-    color: rgb(40, 80, 40);
-}
+a:link { color: rgb(40, 80, 40); }
 
-a:visited {
-    color: rgb(40, 150, 40);
-}
+a:visited { color: rgb(40, 150, 40); }
 
-a:hover {
-    color: rgb(150, 165, 60);
-}
+a:hover { color: rgb(150, 165, 60); }
 
-body.dark-mode a {
-    color: rgb(160, 90, 160);  
-}
+body.dark-mode a { color: rgb(160, 90, 160); }
 
-body.dark-mode a:visited {
-    color: purple;
-}
+body.dark-mode a:visited { color: purple; }
 
-body.dark-mode a:hover {
-    color: hotpink;
-}
+body.dark-mode a:hover { color: hotpink; }
+
+h1, h2, h3 { color: rgb(40, 80, 100); }
+
+body.dark-mode h1, h2, h3 { color: rgb(140, 180, 200); }
