@@ -14,7 +14,7 @@ a:visited { color: rgb(40, 150, 40); }
 
 a:hover { color: rgb(150, 165, 60); }
 
-body.dark-mode a { color: rgb(160, 90, 160); }
+body.dark-mode a:link { color: rgb(160, 90, 160); }
 
 body.dark-mode a:visited { color: purple; }
 
@@ -22,4 +22,4 @@ body.dark-mode a:hover { color: hotpink; }
 
 h1, h2, h3 { color: rgb(40, 80, 100); }
 
-h1.dark-mode, h2.dark-mode, h3.dark-mode { color: rgb(140, 180, 200); }
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3 { color: rgb(140, 180, 200); }
