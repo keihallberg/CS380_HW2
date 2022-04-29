@@ -9,25 +9,25 @@ body.dark-mode {
 }
 
 a:link {
-    color: purple;
+    color: rgb(40, 80, 40);
 }
 
 a:visited {
-    color: rgb(160, 90, 160);
+    color: rgb(40, 150, 40);
 }
 
 a:hover {
-    color: hotpink;
+    color: rgb(150, 165, 60);
 }
 
 body.dark-mode a {
-    color: aquamarine;
+    color: purple;  
 }
 
 body.dark-mode a:visited {
-    color: rgb(20, 190, 120);
+    color: rgb(160, 90, 160);
 }
 
 body.dark-mode a:hover {
-    color: aqua;
+    color: hotpink;
 }
