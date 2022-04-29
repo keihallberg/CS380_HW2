@@ -21,11 +21,11 @@ a:hover {
 }
 
 body.dark-mode a {
-    color: purple;  
+    color: rgb(160, 90, 160);  
 }
 
 body.dark-mode a:visited {
-    color: rgb(160, 90, 160);
+    color: purple;
 }
 
 body.dark-mode a:hover {
