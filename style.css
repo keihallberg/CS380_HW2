@@ -97,3 +97,32 @@ h1 {
     font-size: 84px;
     text-align: center;
 }
+
+h1 + img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 400px;
+    object-fit: contain;
+}
+
+section > p, p + p {
+    text-indent: 2em;
+}
+
+section img {
+    max-width: 400px;
+    max-height: 300px;
+    object-fit: contain;
+    flex-basis: 33.333333%;
+    flex-grow: 1;
+}
+
+main > h1 + img + section + section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1500px;
+}
