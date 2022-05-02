@@ -21,9 +21,9 @@ body.dark-mode a:visited { color: purple; }
 body.dark-mode a:hover { color: hotpink; }
 
 /* Prefered to use the Tagerine font for headers (Open Font Liscence)
-    Submission will only display Brush Script MT because font was
-    downloaded and cannot be submitted. Used download method so as not 
-    to change the html files */
+    Final submission will only display Brush Script MT. Tangerine was
+    downloaded and added to file path (to avoid changing .html files), but 
+    cannot be submitted with style.css */
 @font-face {
     font-family: Tangerine;
     src: url(fonts/Tangerine/Tangerine-Bold.ttf);
