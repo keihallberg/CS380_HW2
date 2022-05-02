@@ -92,3 +92,8 @@ body.dark-mode #theme-toggle {
     color: rgb(60, 60, 80);
     border: 2px solid rgb(160, 90, 160);
 }
+
+h1 {
+    font-size: 84px;
+    text-align: center;
+}
