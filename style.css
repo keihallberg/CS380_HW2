@@ -20,6 +20,20 @@ body.dark-mode a:visited { color: purple; }
 
 body.dark-mode a:hover { color: hotpink; }
 
-h1, h2, h3 { color: rgb(40, 80, 100); }
+/* Prefered to use the Tagerine font for headers (Open Font Liscence)
+    Submission will only display Brush Script MT because font was
+    downloaded and cannot be submitted. Used download method so as not 
+    to change the html files */
+@font-face {
+    font-family: Tangerine;
+    src: url(fonts/Tangerine/Tangerine-Bold.ttf);
+} 
 
-body.dark-mode h1, body.dark-mode h2, body.dark-mode h3 { color: rgb(140, 180, 200); }
+h1, h2, h3 { 
+    color: rgb(40, 80, 100); 
+    font-family: 'Tangerine', 'Brush Script MT', cursive;
+}
+
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3 { 
+    color: rgb(140, 180, 200); 
+}
