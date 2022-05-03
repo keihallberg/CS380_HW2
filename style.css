@@ -9,11 +9,11 @@ body.dark-mode {
 }
 
 a { 
-    color: rgb(40, 180, 40); 
+    color: rgb(40, 160, 40); 
     font-size: x-large;
 }
 
-a:visited { color: rgb(20, 190, 20); }
+a:visited { color: rgb(10, 190, 10); }
 
 a:hover { color: rgb(90, 250, 20); }
 
