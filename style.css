@@ -159,11 +159,7 @@ tfoot {
     font-size: 14px;
 }
 
-body.dark-mode thead {
-    background-color: rgba(130, 100, 150, 0.5);
-}
-
-body.dark-mode tfoot {
+body.dark-mode thead, body.dark-mode tfoot {
     background-color: rgba(130, 100, 150, 0.5);
 }
 
@@ -172,3 +168,41 @@ tbody tr > td:nth-child(1) {
     font-size: large;
 }
 
+dt, h3 ~ div {
+    font-size: large;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+dd, section p {
+    padding-bottom: 8px;
+}
+
+.gf::before {
+    content: "gf - ";
+    font-style: italic;
+}
+
+.vg::before {
+    content: "vg - ";
+    font-style: italic;
+}
+
+.gf.vg::before {
+    content: "gf vg - ";
+    font-style: italic;
+}
+
+h2 + section::after {
+    content: " ";
+    display: inline-block;
+    width: 600px;
+    border-bottom: 3px solid rgb(40, 80, 100);
+}
+
+section p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 0;
+}
