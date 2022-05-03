@@ -112,8 +112,10 @@ section > p, p + p {
 }
 
 section img {
-    max-width: 400px;
-    max-height: 300px;
+    min-width: 400px;
+    max-width: 600px;
+    min-height: 300px;
+    max-height: 500px;
     object-fit: contain;
     flex-basis: 33.333333%;
     flex-grow: 1;
