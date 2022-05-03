@@ -37,6 +37,19 @@ h1, h2, h3 {
     font-family: 'Tangerine', 'Brush Script MT', cursive;
 }
 
+h1 {
+    font-size: 84px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 64px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
 body.dark-mode h1, body.dark-mode h2, body.dark-mode h3 { 
     color: rgb(140, 180, 200); 
 }
@@ -93,11 +106,6 @@ body.dark-mode #theme-toggle {
     border: 2px solid rgb(160, 90, 160);
 }
 
-h1 {
-    font-size: 84px;
-    text-align: center;
-}
-
 h1 + img {
     display: block;
     margin-left: auto;
@@ -126,3 +134,41 @@ main > h1 + img + section + section {
     justify-content: space-between;
     max-width: 1500px;
 }
+
+table {
+    border: 3px solid rgb(40, 80, 100);
+}
+
+tr:nth-child(2n):not(thead > tr):not(tfoot > tr) {
+    background-color: rgb(140, 180, 200, .5);
+}
+
+tr:nth-child(2n+1):not(thead > tr):not(tfoot > tr) {
+    background-color: rgb(100, 180, 200, .5);
+}
+
+thead {
+    background-color: rgba(100, 200, 120, 0.5);
+    font-style: italic;
+    font-size: large;
+}
+
+tfoot {
+    background-color: rgba(100, 200, 120, 0.5);
+    font-style: italic;
+    font-size: 14px;
+}
+
+body.dark-mode thead {
+    background-color: rgba(130, 100, 150, 0.5);
+}
+
+body.dark-mode tfoot {
+    background-color: rgba(130, 100, 150, 0.5);
+}
+
+tbody tr > td:nth-child(1) {
+    font-weight: bold;
+    font-size: large;
+}
+
