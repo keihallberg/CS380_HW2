@@ -111,13 +111,18 @@ section > p, p + p {
     text-indent: 2em;
 }
 
+main > h1 + img + section + section {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 section img {
-    min-width: 400px;
-    max-width: 600px;
-    min-height: 300px;
-    max-height: 500px;
-    object-fit: contain;
-    flex-basis: 33.333333%;
+    float: left;
+    width: 700px;
+    height: 300px;
+    border: 2px solid bisque;
+    object-fit: cover;
+    flex-basis: 32%;
     flex-grow: 1;
 }
 
